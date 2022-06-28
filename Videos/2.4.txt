@@ -1,0 +1,31 @@
+λ py
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> numero1 = input("Escribe un numero: ")
+Escribe un numero: 4
+>>> numero = input("Escribe un numero: ")
+Escribe un numero: 5
+>>> numero2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'numero2' is not defined. Did you mean: 'numero1'?
+>>> numero
+'5'
+>>> numero + numero1
+'54'
+>>> numero1 = int(numero1)
+>>> numero = int(numero)
+>>> numero
+5
+>>> numero1
+4
+>>> numero1 + numero
+9
+>>> numero_decimal = 4.5
+>>> int(4.5)
+4
+>>> numero_decimal
+4.5
+>>> str(numero_decimal)
+'4.5'
+>>>
