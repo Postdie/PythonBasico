@@ -1,0 +1,17 @@
+λ py
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> numero = 3
+>>> print (numero)
+3
+>>> numero1 = 5
+>>> numero2 = 6
+>>> numero1 + numero2
+11
+>>> numero1 = 12
+>>> numero1 + numero2
+18
+>>> numero_resultado = numero1 + numero2
+>>> numero_resultado
+18
+>>> λ py Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information. >>> numero = 3 >>> print (numero) 3 >>> numero1 = 5 >>> numero2 = 6 >>> numero1 + numero2 11 >>> numero1 = 12 >>> numero1 + numero2 18 >>> numero_resultado = numero1 + numero2 >>> numero_resultado 18 >>>
