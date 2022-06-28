@@ -1,0 +1,34 @@
+λ py
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> nombre = input("Cual es tu nombre?: ")
+Cual es tu nombre?: facundo
+>>> nombre
+'facundo'
+>>> nombre.upper()
+'FACUNDO'
+>>> nombre.capitalize()
+'Facundo'
+>>> nombre = nombre.capitalize()
+>>> nombre
+'Facundo'
+>>> nombre = nombre.strip()
+>>> nombre
+'Facundo'
+>>> nombre = nombre.lower()
+>>> nombre
+'facundo'
+>>> nombre = nombre.replace("o", "a")
+>>> nombre
+'facunda'
+>>> nombre[0]
+'f'
+>>> letra = nombre[2]
+>>> letra
+'c'
+>>> len(nombre)
+7
+>>> len(letra)
+1
+>>> len("Hola este es el curso de python")
+31
+>>>
