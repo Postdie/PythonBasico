@@ -1,0 +1,41 @@
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> numeros = [1, 6, 8, 10, 90]
+>>> numeros
+[1, 6, 8, 10, 90]
+>>> mis_objetos = [maria, 1, 8.3, 101, False]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'maria' is not defined
+>>> objetos = [maria, 1, 8.3, 101, False]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'maria' is not defined
+>>> objetos = ["maria", 1, 8.3, 101, False]
+>>> objetos
+['maria', 1, 8.3, 101, False]
+>>> objetos [0]
+'maria'
+>>> objetos.append(True)
+>>> objetos
+['maria', 1, 8.3, 101, False, True]
+>>> objetos.pop(1)
+1
+>>> objetos
+['maria', 8.3, 101, False, True]
+>>> for elemento in objetos:
+...
+  File "<stdin>", line 2
+
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> for elemento in objetos:
+...             print(elemento)
+...
+maria
+8.3
+101
+False
+True
+>>> objetos[::-1]
+[True, False, 101, 8.3, 'maria']
+>>>
