@@ -1,0 +1,24 @@
+λ py
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> nombre = Francisco
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Francisco' is not defined
+>>> nombre = "Frencisco"
+>>> nombre[0:3]
+'Fre'
+>>> nombre[:3]
+'Fre'
+>>> nombre[3:]
+'ncisco'
+>>> nombre[1:7]
+'rencis'
+>>> nombre[1:7:2]
+'rni'
+>>> nombre[::]
+'Frencisco'
+>>> nombre[1::3]
+'rcc'
+>>> nombre[::-1]
+'ocsicnerF'
+>>>
